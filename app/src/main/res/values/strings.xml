@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wood Calculator</string>
+    <string name="rate_of_wood">Rate of wood</string>
+    <string name="enter_length">Enter Length :</string>
+    <string name="length_in_feet">Length in feet</string>
+    <string name="enter_breadth">Enter Breadth :</string>
+    <string name="breadth_in_inches">Breadth in inches</string>
+    <string name="enter_height">Enter Height :</string>
+    <string name="height_in_inches">Height in inches</string>
+    <string name="enter_quantity">Enter Quantity :</string>
+    <string name="quantity_of_wood">Quantity of wood</string>
+    <string name="enter_rate">Enter Rate :</string>
+    <string name="calculate">calculate</string>
+    <string name="kb"> KB :</string>
+    <string name="price">PRICE :</string>
+    <string name="BoundaryCaseError">Enter Valid Range of Input : 1 to 400</string>
+    <string name="EmptyValueError">Enter all Inputs.</string>
+</resources>

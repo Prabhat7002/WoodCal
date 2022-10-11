@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/woodish">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginBottom="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/enter_length"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/len"
+            style="@style/editStyle"
+            android:textStyle="bold"
+            android:hint="@string/length_in_feet"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:textSize="20sp"
+            android:text="@string/enter_breadth"/>
+        <EditText
+            android:id="@+id/brd"
+            style="@style/editStyle"
+            android:textStyle="bold"
+            android:hint="@string/breadth_in_inches"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:textSize="20sp"
+            android:text="@string/enter_height"/>
+        <EditText
+            android:id="@+id/hght"
+            style="@style/editStyle"
+            android:textStyle="bold"
+            android:hint="@string/height_in_inches"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:textSize="20sp"
+            android:text="@string/enter_quantity"/>
+        <EditText
+            android:id="@+id/quan"
+            style="@style/editStyle"
+            android:textStyle="bold"
+            android:hint="@string/quantity_of_wood"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:textSize="20sp"
+            android:text="@string/enter_rate"/>
+        <EditText
+            android:id="@+id/rate"
+            style="@style/editStyle"
+            android:textStyle="bold"
+            android:hint="@string/rate_of_wood"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:text="Error Messages"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btCal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/calculate" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/kb"/>
+        <TextView
+            android:id="@+id/kb"
+            android:gravity="center"
+            style="@style/textStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="14dp">
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/price"/>
+        <TextView
+            android:id="@+id/price"
+            style="@style/textStyle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
