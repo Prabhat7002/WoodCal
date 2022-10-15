@@ -8,4 +8,4 @@ We divide by 144 because 12 feet = 144 inches (1 foot = 1 inches).<br />
 Price = KB* Rate of Wood.<br />
 We the length is taken in feet, breadth and height is are taken in inches and price in INR.<br />
 
-Could love to get some suggestion and advise on this aplication
+Could love to get some suggestion and advise on this application
